@@ -11,11 +11,6 @@ namespace IrongridC2SystemConsumer.Context
 
         }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            base.OnModelCreating(modelBuilder);
-        }
-
         public DbSet<AssetLiveStatus> AssetLiveStatuses { get; set; }
     }
 }

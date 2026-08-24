@@ -3,9 +3,6 @@ using System;
 using System.Text.Json;
 
 
-
-
-
 var config = new ProducerConfig
 {
     BootstrapServers = "localhost"

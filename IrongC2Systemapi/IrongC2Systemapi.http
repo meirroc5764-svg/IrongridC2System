@@ -1,0 +1,6 @@
+@IrongC2Systemapi_HostAddress = http://localhost:5003
+
+GET {{IrongC2Systemapi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
